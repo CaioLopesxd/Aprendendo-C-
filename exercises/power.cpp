@@ -18,6 +18,5 @@ int main(){
     cout << "O resultado é: ";
     cout << v << endl;
 
-
     return 0;
 }
