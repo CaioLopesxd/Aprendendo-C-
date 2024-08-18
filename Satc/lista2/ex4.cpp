@@ -1,5 +1,5 @@
-/*
-    5 – Desenvolva um programa para verificar se um ano é bissexto ou não.
+/*4. Faça um Programa que peça para entrar com um ano com 4 dígitos e
+determine se o mesmo é ou não bissexto.
 */
 #include <iostream>
 
