@@ -1,6 +1,7 @@
 /*
 Escreva uma função que recebe três parâmetros do tipo inteiro e retorna
-a soma destes três parâmetros.*/
+a soma destes três parâmetros.
+*/
 
 #include <iostream>
 
