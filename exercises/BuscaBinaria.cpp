@@ -4,8 +4,7 @@ using namespace std;
 
 int buscaBinaria(int array[], int tamanho, int valor)
 {
-    int inicio, fim, chute, tentativas;
-    int meio;
+    int inicio, fim, chute, tentativas, meio;
     inicio = 0;
     fim = tamanho - 1;
     while (inicio <= fim)
@@ -35,9 +34,11 @@ int buscaBinaria(int array[], int tamanho, int valor)
 int main()
 {
     int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int resultadoPesquisa;
+    int resultadoPesquisa, valor;
     int tamanhoArray = sizeof(array) / sizeof(int);
-    int valor = 1;
+
+    cout << "insira um valor entre 0 a 10: ";
+    cin >> valor;
 
     resultadoPesquisa = buscaBinaria(array, tamanhoArray - 1, valor);
 
