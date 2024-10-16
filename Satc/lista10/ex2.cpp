@@ -23,11 +23,15 @@ class Retangulo{
         Retangulo();
 
         friend double CalcularArea(Retangulo r);
-
+        friend double CalcularPerimetro(Retangulo r);
 };
 
 double CalcularArea(Retangulo r){
     return r.comprimento_ * r.largura_;
+}
+
+double CalcularPerimetro(Retangulo r){
+    return (r.comprimento_+r.largura_)*2;
 }
 
 int main(){
@@ -35,6 +39,7 @@ int main(){
     Retangulo r(10,20);
 
     cout << "Area da caixa: " << CalcularArea(r) << endl;
+    cout << "Perimetro da caixa: " << CalcularPerimetro(r) << endl;
 
     return 0;
 }
